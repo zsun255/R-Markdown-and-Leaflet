@@ -1,0 +1,15 @@
+---
+title: Los Angeles International Airport"
+author: "Zhiyi Sun"
+date: "8/15/2021"
+output: html_document
+---
+
+## August 15, 2021 
+
+```{r cars, echo = TRUE,fig.align='center'}
+library(leaflet)
+leaflet()%>%
+addTiles()%>%
+addMarkers(lat=33.9416,lng=-118.4085,popup="Los Angeles International Airport")
+```
